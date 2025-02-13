@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;500;600;700;800&display=swap');
+
+*{
+    margin:  0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+main img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+footer {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.code-example {
+    background: #eef;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: monospace;
+    overflow-x: auto;
+}
+.faq {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.code-example {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    overflow-x: auto;
+    text-align: left;
+}
